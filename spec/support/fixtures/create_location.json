@@ -1,0 +1,9 @@
+{
+ "name": "Campaign HQ",
+ "address": {
+   "addressLine1": "48 Grove St",
+   "city": "Somerville",
+   "stateOrProvince": "MA",
+   "zipOrPostalCode": "02144"
+  }
+}

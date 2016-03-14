@@ -1,0 +1,19 @@
+{
+  "locationId": 272,
+  "name": "Campaign HQ",
+  "displayName": "Campaign HQ, 48 Grove St Somerville, MA 02144-2500",
+  "address": {
+    "addressLine1": "48 Grove St",
+    "addressLine2": null,
+    "addressLine3": null,
+    "city": "Somerville",
+    "stateOrProvince": "MA",
+    "zipOrPostalCode": "02144",
+    "geoLocation": {
+      "lon": -71.120121,
+      "lat": 42.396363
+    },
+    "countryCode": "US",
+    "preview": "48 Grove St \r\nSomerville, MA 02144-2500"
+  }
+}

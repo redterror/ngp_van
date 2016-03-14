@@ -1,0 +1,66 @@
+{
+  "minivanExportId": 2133,
+  "name": "My List 10/9/15 4:23 PM",
+  "databaseMode": 0,
+  "dateCreated": "2015-10-09T16:23:53.41Z",
+  "createdBy": {
+    "userId": 111222,
+    "firstName": "Frances",
+    "lastName": "Perkins"
+  },
+  "canvassers": [
+    {
+      "canvassserId": 111223,
+      "firstName": "Eleanor",
+      "lastName": "Roosevelt"
+    }
+  ],
+  "eventSignups": [
+    {
+        "eventSignupId": 9333,
+        "person": {
+            "vanId": 100116333
+        },
+        "event": {
+            "eventId": 70333
+        },
+        "shift": {
+            "eventShiftId": 134333
+        },
+        "role": {
+            "roleId": 333
+        },
+        "status": {
+            "statusId": 4
+        },
+        "location": {
+            "locationId": 5333
+        },
+        "startTimeOverride": "2015-09-08T14:00:00-04:00",
+        "endTimeOverride": "2015-09-08T19:30:00-04:00"
+    },
+    {
+        "eventSignupId": 9444,
+        "person": {
+            "vanId": 100116444
+        },
+        "event": {
+            "eventId": 70444
+        },
+        "shift": {
+            "eventShiftId": 134444
+        },
+        "role": {
+            "roleId": 444
+        },
+        "status": {
+            "statusId": 4
+        },
+        "location": {
+            "locationId": 5444
+        },
+        "startTimeOverride": "2015-09-08T14:00:00-04:00",
+        "endTimeOverride": "2015-09-08T19:30:00-04:00"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "items": [{
+    "surveyQuestionId": 54945,
+    "type": "Candidate",
+    "cycle": 2010,
+    "name": "John Kerry senate",
+    "mediumName": "Kerry",
+    "shortName": "Kerr",
+    "scriptQuestion": "Will you vote for John Kerry in the upcoming Senate race?",
+    "status": "Archived",
+    "responses": [{
+      "surveyResponseId": 245998,
+      "name": "1 Strong Kerry",
+      "mediumName": "1",
+      "shortName": "K"
+    }, {
+      "surveyResponseId": 245999,
+      "name": "2 Leaning Kerry",
+      "mediumName": "2",
+      "shortName": "k"
+    }, {
+      "surveyResponseId": 246000,
+      "name": "3 Undecided",
+      "mediumName": "3",
+      "shortName": "U"
+    }, {
+      "surveyResponseId": 246002,
+      "name": "4 Leaning Republican",
+      "mediumName": "5 L",
+      "shortName": "r"
+    }, {
+      "surveyResponseId": 246001,
+      "name": "5 Strong Republican",
+      "mediumName": "4",
+      "shortName": "R"
+    }, {
+      "surveyResponseId": 403566,
+      "name": "6 Green Party",
+      "mediumName": "6 G",
+      "shortName": "G"
+    }, {
+      "surveyResponseId": 408826,
+      "name": "7 Libertarian",
+      "mediumName": "7 L",
+      "shortName": "L"
+    }]
+  }, {
+    "surveyQuestionId": 54949,
+    "type": "Candidate",
+    "cycle": 2010,
+    "name": "Maddow for Senate",
+    "mediumName": "Maddow",
+    "shortName": "MS",
+    "scriptQuestion": "In the upcoming race for US Senate, do you plan to vote for Republican Scott Brown or Democrat Rachel Maddow?",
+    "status": "Active",
+    "responses": [{
+      "surveyResponseId": 246016,
+      "name": "1 - Strong Maddow",
+      "mediumName": "1",
+      "shortName": "1"
+    }, {
+      "surveyResponseId": 246017,
+      "name": "2 - Leaning Maddow",
+      "mediumName": "2",
+      "shortName": "2"
+    }, {
+      "surveyResponseId": 246018,
+      "name": "3 - Undecided",
+      "mediumName": "3",
+      "shortName": "3"
+    }, {
+      "surveyResponseId": 246020,
+      "name": "4 - Leaning Brown",
+      "mediumName": "4",
+      "shortName": "4"
+    }, {
+      "surveyResponseId": 246019,
+      "name": "5 - Strong Brown",
+      "mediumName": "5",
+      "shortName": "5"
+    }]
+  }],
+  "nextPageLink": null,
+  "count": 2
+}

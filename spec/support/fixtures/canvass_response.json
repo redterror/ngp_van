@@ -1,0 +1,25 @@
+{
+  "canvassContext": {
+    "contactTypeId": 2,
+    "inputTypeId": 14,
+    "dateCanvassed": "2012-04-09T00:00:00-04:00"
+  },
+  "resultCodeId": null,
+  "responses": [
+    {
+      "activistCodeId": 18917,
+      "action": "Apply",
+      "type": "ActivistCode"
+    },
+    {
+      "volunteerActivityId": 3425,
+      "action": "Apply",
+      "type": "VolunteerActivity"
+    },
+    {
+      "surveyQuestionId": 109149,
+      "surveyResponseId": 465468,
+      "type": "SurveyResponse"
+    }
+  ]
+}

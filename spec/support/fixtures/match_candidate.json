@@ -1,0 +1,61 @@
+{
+  "vanId": 1234,
+  "firstName": "James",
+  "middleName": "Worthington",
+  "lastName": "Gordon",
+  "emails": [
+    {
+      "email": "jim@gotham.city.us",
+      "type": "P",
+      "isPreferred": true
+    },
+    {
+      "email": "jim@fake.ngpvan.com",
+      "type": "W",
+      "isPreferred": false
+    }
+  ],
+  "phones": [
+    {
+      "phoneNumber": "1-555-888-9999",
+      "phoneType": "H",
+      "isPreferred": true
+    },
+    {
+      "phoneNumber": "1-555-555-1234",
+      "phoneType": "W",
+      "ext": 999,
+      "isPreferred": false
+    }
+  ],
+  "addresses": [
+    {
+      "addressLine1": "123 Main St",
+      "addressLine2": "Apt 3",
+      "addressLine3": "c/o Jane Smith",
+      "city": "Gotham City",
+      "stateOrProvince": "IL",
+      "zipOrPostalCode": "01234",
+      "countryCode": "US",
+      "type": "H",
+      "isPreferred": true
+    },
+    {
+      "addressLine1": "555 Elm St",
+      "addressLine2": "Suite 101",
+      "addressLine3": "Marketing Department",
+      "city": "Springfield",
+      "stateOrProvince": "IL",
+      "zipOrPostalCode": "01234",
+      "countryCode": "US",
+      "type": "W",
+      "isPreferred": false
+    }
+  ],
+  "identifiers": [
+    {
+      "type": "bsdid",
+      "externalId": "746313"
+    }
+  ]
+}

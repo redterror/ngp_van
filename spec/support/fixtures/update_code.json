@@ -1,0 +1,22 @@
+{
+  "codeId": 20547,
+  "parentCodeId": 20515,
+  "name": "AFL and CIO",
+  "supportedEntities": [
+    {
+      "name": "Events",
+      "isSearchable": true,
+      "isApplicable": true
+    },
+    {
+      "name": "Locations",
+      "isSearchable": true,
+      "isApplicable": true
+    },
+    {
+      "name": "Organizations",
+      "isSearchable": true,
+      "isApplicable": false
+    }
+  ]
+}

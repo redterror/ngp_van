@@ -1,0 +1,52 @@
+{
+  "number": "15981815-49117",
+  "name": "Test Turf 01",
+  "eventSignups": [
+    {
+      "eventSignupId": 9333,
+      "person": {
+          "vanId": 100116333
+      },
+      "event": {
+          "eventId": 70333
+      },
+      "shift": {
+          "eventShiftId": 134333
+      },
+      "role": {
+          "roleId": 333
+      },
+      "status": {
+          "statusId": 4
+      },
+      "location": {
+          "locationId": 5333
+      },
+      "startTimeOverride": "2015-09-08T14:00:00-04:00",
+      "endTimeOverride": "2015-09-08T19:30:00-04:00"
+    },
+    {
+      "eventSignupId": 9444,
+      "person": {
+          "vanId": 100116444
+      },
+      "event": {
+          "eventId": 70444
+      },
+      "shift": {
+          "eventShiftId": 134444
+      },
+      "role": {
+          "roleId": 444
+      },
+      "status": {
+          "statusId": 4
+      },
+      "location": {
+          "locationId": 5444
+      },
+      "startTimeOverride": "2015-09-08T14:00:00-04:00",
+      "endTimeOverride": "2015-09-08T19:30:00-04:00"
+    }
+  ]
+}

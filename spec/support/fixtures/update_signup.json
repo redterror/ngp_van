@@ -1,0 +1,35 @@
+{
+  "eventSignupId": 2452,
+  "person": {
+    "vanId": 100476252
+  },
+  "event": {
+    "eventId": 1370
+  },
+  "shift": {
+    "eventShiftId": 2162
+  },
+  "role": {
+    "roleId": 111687
+  },
+  "status": {
+    "statusId": 4
+  },
+  "location": {
+    "locationId": 273
+  },
+  "printedLists": [{
+    "number": "16531169-91998"
+  }, {
+    "number": "16531169-81234"
+  }, {
+    "number": "16531169-81235"
+  }],
+  "minivanExports": [{
+    "minivanExportId": 2186,
+    "databaseMode": 0
+  }, {
+    "minivanExportId": 2187,
+    "databaseMode": 1
+  }]
+}

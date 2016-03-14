@@ -1,0 +1,26 @@
+[
+  {
+    "inputTypeId": 11,
+    "name": "API"
+  },
+  {
+    "inputTypeId": 4,
+    "name": "Bulk"
+  },
+  {
+    "inputTypeId": 2,
+    "name": "Manual"
+  },
+  {
+    "inputTypeId": 14,
+    "name": "Mobile"
+  },
+  {
+    "inputTypeId": 10,
+    "name": "VPB"
+  },
+  {
+    "inputTypeId": 23,
+    "name": "Website"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "name": "Neighbors Calling Neighbors",
+  "shortName": "NeighborCall",
+  "description": "Come help get the word out about our great campaign.",
+  "startDate": "2015-06-02T15:00:00-04:00",
+  "endDate": "2015-06-02T20:00:00-04:00",
+  "eventType": {
+    "eventTypeId": 143856
+  },
+  "isOnlyEditableByCreatingUser": false,
+  "locations": [
+    {
+      "locationId": 273
+    }
+  ],
+  "codes": [
+    {
+      "codeId": 20516
+    },
+    {
+      "codeId": 20518
+    }
+  ],
+  "notes": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "isViewRestricted": true
+    }
+  ],
+  "shifts": [
+    {
+      "name": "Setup",
+      "startTime": "2015-06-01T15:00:00-04:00",
+      "endTime": "2015-06-01T16:00:00-04:00"
+    },
+    {
+      "name": "Early Shift",
+      "startTime": "2015-06-01T16:00:00-04:00",
+      "endTime": "2015-06-01T18:00:00-04:00"
+    },
+    {
+      "name": "Late Shift",
+      "startTime": "2015-06-01T18:00:00-04:00",
+      "endTime": "2015-06-01T20:00:00-04:00"
+    }
+  ],
+  "roles": [
+    {
+      "roleId": 111687,
+      "name": "Host",
+      "isEventLead": true
+    },
+    {
+      "roleId": 111689,
+      "name": "Phone Banker",
+      "isEventLead": false,
+      "min": 5,
+      "goal": 20
+    }
+  ],
+  "districtFieldValue": "003"
+}

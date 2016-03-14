@@ -1,0 +1,55 @@
+{
+  "eventSignupId": 2452,
+  "person": {
+    "vanId": 100476252,
+    "firstName": "James",
+    "middleName": "Worthington",
+    "lastName": "Gordon"
+  },
+  "event": {
+    "eventId": 1370,
+    "name": "Neighbors Calling Neighbors",
+    "shortName": "NeighborCall"
+  },
+  "shift": {
+    "eventShiftId": 2162,
+    "name": null
+  },
+  "role": {
+    "roleId": 111687,
+    "name": "Host"
+  },
+  "status": {
+    "statusId": 4,
+    "name": "Invited"
+  },
+  "location": {
+    "locationId": 272,
+    "name": "Campaign HQ",
+    "displayName": "Campaign HQ, 48 Grove St Somerville, MA 02144-2500"
+  },
+  "startTimeOverride": "2015-06-01T15:00:00-04:00",
+  "endTimeOverride": "2015-06-01T16:00:00-04:00",
+  "printedLists": [
+    {
+      "number": "15981815-49117",
+      "name": "Test Turf 01"
+    },
+    {
+      "number": "15982500-51399",
+      "name": "Test Turf 02"
+    }
+  ],
+  "minivanExports": [
+    {
+      "minivanExportId": 2186,
+      "name": "My List 10/9/15 4:23 PM",
+      "databaseMode": 0
+    },
+    {
+      "minivanExportId": 2187,
+      "name": "My List 10/9/15 4:34 PM",
+      "databaseMode": 1
+    }
+  ]
+}

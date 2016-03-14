@@ -1,0 +1,10 @@
+[
+  {
+    "contactTypeId": 1,
+    "name": "Phone"
+  },
+  {
+    "contactTypeId": 2,
+    "name": "Walk"
+  }
+]

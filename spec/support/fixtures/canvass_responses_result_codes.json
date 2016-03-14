@@ -1,0 +1,26 @@
+[
+  {
+    "resultCodeId": 18,
+    "name": "Busy",
+    "mediumName": "Busy",
+    "shortName": "BZ"
+  },
+  {
+    "resultCodeId": 25,
+    "name": "Disconnected",
+    "mediumName": "Disc",
+    "shortName": "WX"
+  },
+  {
+    "resultCodeId": 19,
+    "name": "Left Message",
+    "mediumName": "LM",
+    "shortName": "LM"
+  },
+  {
+    "resultCodeId": 20,
+    "name": "Wrong Number",
+    "mediumName": "Wr#",
+    "shortName": "WN"
+  }
+]

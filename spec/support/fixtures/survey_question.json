@@ -1,0 +1,36 @@
+{
+  "surveyQuestionId": 54949,
+  "type": "Candidate",
+  "cycle": 2010,
+  "name": "Maddow for Senate",
+  "mediumName": "Maddow",
+  "shortName": "MS",
+  "scriptQuestion": "In the upcoming race for US Senate, do you plan to vote for Republican Scott Brown or Democrat Rachel Maddow?",
+  "status": "Active",
+  "responses": [{
+    "surveyResponseId": 246016,
+    "name": "1 - Strong Maddow",
+    "mediumName": "1",
+    "shortName": "1"
+  }, {
+    "surveyResponseId": 246017,
+    "name": "2 - Leaning Maddow",
+    "mediumName": "2",
+    "shortName": "2"
+  }, {
+    "surveyResponseId": 246018,
+    "name": "3 - Undecided",
+    "mediumName": "3",
+    "shortName": "3"
+  }, {
+    "surveyResponseId": 246020,
+    "name": "4 - Leaning Brown",
+    "mediumName": "4",
+    "shortName": "4"
+  }, {
+    "surveyResponseId": 246019,
+    "name": "5 - Strong Brown",
+    "mediumName": "5",
+    "shortName": "5"
+  }]
+}

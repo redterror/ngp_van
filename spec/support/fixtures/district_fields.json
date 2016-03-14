@@ -1,0 +1,22 @@
+{
+  "districts": [
+    {
+      "districtFieldId": 888,
+      "name": "State Senate",
+      "parentFieldId": null,
+      "isCustomDistrict": false
+    },
+    {
+      "districtFieldId": 889,
+      "name": "State House",
+      "parentFieldId": 888,
+      "isCustomDistrict": false
+    },
+    {
+      "districtFieldId": 900,
+      "name": "Minnesota Regions",
+      "parentFieldId": null,
+      "isCustomDistrict": true
+    }
+  ]
+}

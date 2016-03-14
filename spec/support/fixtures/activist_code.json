@@ -1,0 +1,10 @@
+{
+  "activistCodeId": 3202,
+  "type": "Visibility",
+  "name": "Yard Sign",
+  "mediumName": "Yard sign",
+  "shortName": "YS",
+  "description": "Voter requested yard sign",
+  "scriptQuestion": "Would you be interested in having a yard sign in support of Democratic candidates?",
+  "status": "Active"
+}

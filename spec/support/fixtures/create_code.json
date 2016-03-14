@@ -1,0 +1,16 @@
+{
+  "parentCodeId": 20515,
+  "name": "AFL-CIO",
+  "supportedEntities": [
+    {
+      "name": "Events",
+      "isSearchable": true,
+      "isApplicable": true
+    },
+    {
+      "name": "Locations",
+      "isSearchable": true,
+      "isApplicable": true
+    }
+  ]
+}

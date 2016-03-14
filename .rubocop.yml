@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - 'Gemfile'
+
+  DisplayStyleGuide: true
+
+  TargetRubyVersion: 2.3
+
+Documentation:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false

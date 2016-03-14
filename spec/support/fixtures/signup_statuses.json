@@ -1,0 +1,26 @@
+[
+  {
+    "statusId": 2,
+    "name": "Completed"
+  },
+  {
+    "statusId": 11,
+    "name": "Confirmed"
+  },
+  {
+    "statusId": 3,
+    "name": "Declined"
+  },
+  {
+    "statusId": 4,
+    "name": "Invited"
+  },
+  {
+    "statusId": 1,
+    "name": "Scheduled"
+  },
+  {
+    "statusId": 15,
+    "name": "Walk In"
+  }
+]

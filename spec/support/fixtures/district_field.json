@@ -1,0 +1,28 @@
+{
+  "districtFieldId": 999,
+  "name": "State House",
+  "parentFieldId": 888,
+  "isCustomDistrict": false,
+  "districtFieldValues": [
+    {
+      "id": "10",
+      "name": "Jackson County District 10",
+      "parentId": "1234"
+    },
+    {
+      "id": "11",
+      "name": "Jackson County District 11",
+      "parentId": "1234"
+    },
+    {
+      "id": "12",
+      "name": "Jackson County District 12",
+      "parentId": "1234"
+    },
+    {
+      "id": "20",
+      "name": "Jefferson County District 20",
+      "parentId": "2345"
+    }
+  ]
+}

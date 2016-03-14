@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "activistCodeId": 3214,
+      "type": "Volunteer",
+      "name": "Precinct Captain",
+      "mediumName": "P Capt",
+      "shortName": "PC",
+      "description": "Precinct Captain",
+      "scriptQuestion": "Would you be willing to be a Precinct Captain?",
+      "status": "Active"
+    },
+    {
+      "activistCodeId": 8009,
+      "type": "Volunteer",
+      "name": "Stand Out",
+      "mediumName": "Stand Out",
+      "shortName": "SO",
+      "description": null,
+      "scriptQuestion": null,
+      "status": "Archived"
+    },
+    {
+      "activistCodeId": 36222,
+      "type": "Volunteer",
+      "name": "Supporter",
+      "mediumName": "Supporter",
+      "shortName": "Sup",
+      "description": null,
+      "scriptQuestion": null,
+      "status": "Active"
+    }
+  ],
+  "nextPageLink": null,
+  "count": 3
+}

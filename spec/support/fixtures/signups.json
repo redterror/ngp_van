@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "eventSignupId": 2452,
+      "person": {
+        "vanId": 100476252,
+        "firstName": "James",
+        "middleName": "Worthington",
+        "lastName": "Gordon"
+      },
+      "event": {
+        "eventId": 1370,
+        "name": "Neighbors Calling Neighbors",
+        "shortName": "NeighborCall"
+      },
+      "shift": {
+        "eventShiftId": 2162,
+        "name": null
+      },
+      "role": {
+        "roleId": 111687,
+        "name": "Host"
+      },
+      "status": {
+        "statusId": 4,
+        "name": "Invited"
+      },
+      "location": {
+        "locationId": 272,
+        "name": "Campaign HQ",
+        "displayName": "Campaign HQ, 48 Grove St Somerville, MA 02144-2500 "
+      },
+      "startTimeOverride": "2015-06-01T15:00:00-04:00",
+      "endTimeOverride": "2015-06-01T16:00:00-04:00",
+      "printedLists": [
+        {
+          "number": "15981815-49117",
+          "name": "Test Turf 01"
+        },
+        {
+          "number": "15982500-51399",
+          "name": "Test Turf 02"
+        }
+      ],
+      "minivanExports": [
+        {
+          "minivanExportId": 2186,
+          "name": "My List 10/9/15 4:23 PM",
+          "databaseMode": 0
+        },
+        {
+          "minivanExportId": 2187,
+          "name": "My List 10/9/15 4:34 PM",
+          "databaseMode": 1
+        }
+      ]
+    },
+    {
+      "eventSignupId": 2453,
+      "person": {
+        "vanId": 100476252,
+        "firstName": "James",
+        "middleName": "Worthington",
+        "lastName": "Gordon"
+      },
+      "event": {
+        "eventId": 1373,
+        "name": "Neighbors Calling Neighbors",
+        "shortName": "NeighborCall"
+      },
+      "shift": {
+        "eventShiftId": 2172,
+        "name": null
+      },
+      "role": {
+        "roleId": 111689,
+        "name": "Phone Banker"
+      },
+      "status": {
+        "statusId": 1,
+        "name": "Scheduled"
+      },
+      "location": null,
+      "startTimeOverride": "2015-06-01T16:00:00-04:00",
+      "endTimeOverride": "2015-06-01T18:00:00-04:00",
+      "printedLists": [
+        {
+          "number": "15981815-59117",
+          "name": "Test Turf 03"
+        },
+        {
+          "number": "15982500-61399",
+          "name": "Test Turf 04"
+        }
+      ],
+      "minivanExports": [
+        {
+          "minivanExportId": 3186,
+          "name": "My List 10/9/15 6:23 PM",
+          "databaseMode": 0
+        },
+        {
+          "minivanExportId": 3187,
+          "name": "My List 10/9/15 6:34 PM",
+          "databaseMode": 1
+        }
+      ]
+    }
+  ],
+  "nextPageLink": null,
+  "count": 2
+}

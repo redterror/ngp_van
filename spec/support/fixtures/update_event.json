@@ -1,0 +1,61 @@
+{
+  "eventId": 1374,
+  "name": "Friends Calling Friends",
+  "shortName": "FriendCall",
+  "description": "Come help get the word out about our great campaign.",
+  "startDate": "2015-06-02T15:00:00-04:00",
+  "endDate": "2015-06-02T20:00:00-04:00",
+  "eventType": {
+    "eventTypeId": 143856
+  },
+  "isOnlyEditableByCreatingUser": false,
+  "locations": [
+    {
+      "locationId": 272
+    }
+  ],
+  "codes": [],
+  "notes": [
+    {
+      "noteId": 10,
+      "text": "Sed ut perspiciatis unde omnis iste natus...",
+      "isViewRestricted": true
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+    }
+  ],
+  "shifts": [
+    {
+      "eventShiftId": 2175,
+      "name": "Early Shift",
+      "startTime": "2015-06-01T15:00:00-04:00",
+      "endTime": "2015-06-01T18:00:00-04:00"
+    },
+    {
+      "eventShiftId": 2176,
+      "name": "Late Shift",
+      "startTime": "2015-06-01T18:00:00-04:00",
+      "endTime": "2015-06-01T20:00:00-04:00"
+    }
+  ],
+  "roles": [
+    {
+      "roleId": 111687,
+      "name": "Host",
+      "isEventLead": true,
+      "min": null,
+      "max": null,
+      "goal": null
+    },
+    {
+      "roleId": 111689,
+      "name": "Phone Banker",
+      "isEventLead": false,
+      "min": 5,
+      "max": null,
+      "goal": 20
+    }
+  ],
+  "districtFieldValue": "004"
+}

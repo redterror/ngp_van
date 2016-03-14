@@ -1,0 +1,17 @@
+[
+ {
+   "assignableTypes": [
+     "Event"
+   ],
+   "noteCategoryId": 24,
+   "name": "Event Details"
+ },
+ {
+   "assignableTypes": [
+     "Event",
+     "Organization"
+   ],
+   "noteCategoryId": 23,
+   "name": "Venue Directions"
+ }
+]

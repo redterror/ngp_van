@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "codeId": 20514,
+      "parentCodeId": 20513,
+      "name": "LGBT",
+      "dateCreated": "2015-04-05T12:59:00Z",
+      "supportedEntities": [
+        {
+          "name": "Events",
+          "isSearchable": true,
+          "isApplicable": true
+        }
+      ]
+    },
+    {
+      "codeId": 20515,
+      "parentCodeId": 20513,
+      "name": "Labor",
+      "dateCreated": "2015-04-05T12:59:00Z",
+      "supportedEntities": [
+        {
+          "name": "Organizations",
+          "isSearchable": true,
+          "isApplicable": false
+        },
+        {
+          "name": "Events",
+          "isSearchable": true,
+          "isApplicable": true
+        },
+        {
+          "name": "Locations",
+          "isSearchable": true,
+          "isApplicable": false
+        }
+      ]
+    },
+    {
+      "codeId": 20516,
+      "parentCodeId": 20513,
+      "name": "Seniors",
+      "dateCreated": "2015-04-05T13:00:00Z",
+      "supportedEntities": [
+        {
+          "name": "Events",
+          "isSearchable": true,
+          "isApplicable": true
+        }
+      ]
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com:443/v4/codes?parentCodeId=20513&$expand=supportedEntities&$top=3&$skip=3",
+  "count": 5
+}

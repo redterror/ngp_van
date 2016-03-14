@@ -1,0 +1,77 @@
+[
+  {
+    "eventTypeId": 143856,
+    "name": "Phone Bank",
+    "canHaveMultipleShifts": true,
+    "canHaveMultipleLocations": true,
+    "canHaveGoals": true,
+    "canHaveRoleMaximums": false,
+    "canHaveRoleMinimums": true,
+    "canBeRepeatable": true,
+    "roles": [
+      {
+        "roleId": 111687,
+        "name": "Host",
+        "isEventLead": true
+      },
+      {
+        "roleId": 111689,
+        "name": "Phone Banker",
+        "isEventLead": false
+      }
+    ],
+    "statuses": [
+      {
+        "statusId": 4,
+        "name": "Invited"
+      },
+      {
+        "statusId": 1,
+        "name": "Scheduled"
+      },
+      {
+        "statusId": 3,
+        "name": "Declined"
+      },
+      {
+        "statusId": 11,
+        "name": "Confirmed"
+      },
+      {
+        "statusId": 2,
+        "name": "Completed"
+      },
+      {
+        "statusId": 15,
+        "name": "Walk In"
+      }
+    ],
+    "color": "#C6AFDA",
+    "isAtLeastOneLocationRequired": false,
+    "defaultLocation": {
+      "locationId": 272,
+      "name": "Campaign HQ",
+      "displayName": "Campaign HQ, 48 Grove St Somerville, MA 02144-2500 ",
+      "address": {
+        "addressId": null,
+        "addressLine1": "48 Grove St",
+        "addressLine2": null,
+        "addressLine3": null,
+        "city": "Somerville",
+        "stateOrProvince": "MA",
+        "zipOrPostalCode": "02144",
+        "geoLocation": {
+          "lon": -71.120121,
+          "lat": 42.396363
+        },
+        "countryCode": "US",
+        "preview": "48 Grove St \r\nSomerville, MA 02144-2500 ",
+        "type": null,
+        "isPreferred": null
+      },
+      "id": 272,
+      "notes": null,
+      "codes": null
+    }
+  }
+]
