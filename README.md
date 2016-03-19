@@ -20,14 +20,20 @@ NGP VAN can be configured using a block:
 
 ```ruby
 NgpVan.configure do |config|
-  config.application_name = '<ApplicationName>'
-  config.api_key = '<ApiKey>|<Mode>' # See http://developers.everyaction.com/van-api#van-authentication
-  config.api_endpoint = '<EndpointUrl>' # Defaults to "https://api.securevan.com/v4/"
-  config.user_agent = '<CustomUserAgent>' # Defaults to "NGP VAN Ruby Gem #{NgpVan::VERSION}"
+  config.application_name = 'MyCampaign2016'
+
+  # See http://developers.everyaction.com/van-api#van-authentication
+  config.api_key = '7285b15a-4d06-44da-8862-d9ff34ca7684|1'
+
+  # Defaults to "https://api.securevan.com/v4/"
+  config.api_endpoint = 'https://intlapi.securevan.com/v4'
+
+  # Defaults to "NGP VAN Ruby Gem #{NgpVan::VERSION}"
+  config.user_agent = 'CustomUserAgent'
 end
 ```
 
-…or options can be set individually:
+Options can also be set on the configuration object:
 
 ```ruby
 % NgpVan.configuration.api_key = '7285b15a-4d06-44da-8862-d9ff34ca7684|1'
