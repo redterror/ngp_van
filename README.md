@@ -25,7 +25,7 @@ NgpVan.configure do |config|
   config.application_name = 'MyCampaign2016'
 
   # See http://developers.everyaction.com/van-api#van-authentication
-  config.api_key = '7285b15a-4d06-44da-8862-d9ff34ca7684|1'
+  config.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
 
   # Defaults to "https://api.securevan.com/v4/"
   config.api_endpoint = 'https://intlapi.securevan.com/v4'
@@ -38,8 +38,8 @@ end
 Options can also be set on the configuration object:
 
 ```ruby
-% NgpVan.configuration.api_key = '7285b15a-4d06-44da-8862-d9ff34ca7684|1'
-# => "7285b15a-4d06-44da-8862-d9ff34ca7684|1"
+% NgpVan.configuration.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
+# => "de286a1a-f2e7-421a-91b8-f8cc8201558f|1"
 ```
 
 ## Making requests
@@ -77,8 +77,8 @@ A console task has also been provided to automatically load the NGP VAN environm
 # => "x.x.x"
 [2] pry(main)> NgpVan.configuration.application_name = 'MyCampaignApplication'
 # => "MyCampaignApplication"
-[3] pry(main)> NgpVan.configuration.api_key = 'EA051D3A-5B2F-4AC8-BD4F-A48045069FA5|1'
-# => "EA051D3A-5B2F-4AC8-BD4F-A48045069FA5|1"
+[3] pry(main)> NgpVan.configuration.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
+# => "de286a1a-f2e7-421a-91b8-f8cc8201558f|1"
 [3] pry(main)> NgpVan.district_fields
 # => [
 #      {"districtFieldId"=>1, "name"=>"State", "parentFieldId"=>nil...,
