@@ -6,7 +6,9 @@ An unofficial Ruby wrapper for the [NGP VAN](http://developers.everyaction.com/)
 
 Install via Rubygems:
 
-    gem install ngp_van
+```ruby
+gem install ngp_van
+```
 
 Or add this line to your application's Gemfile:
 
