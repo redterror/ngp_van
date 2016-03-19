@@ -42,12 +42,34 @@ Options can also be set on the configuration object:
 # => "7285b15a-4d06-44da-8862-d9ff34ca7684|1"
 ```
 
+## Making requests
+
+API Methods can be called as module methods or as instance methods on the client.
+
+```ruby
+NgpVan.district_fields
+# => [
+#      {"districtFieldId"=>1, "name"=>"State", "parentFieldId"=>nil...},
+#      {"districtFieldId"=>4, "name"=>"County", "parentFieldId"=>1...}
+#    ]
+```
+
+or
+
+```ruby
+client = NpgVan.client
+client.district_fields
+# => [
+#      {"districtFieldId"=>1, "name"=>"State", "parentFieldId"=>nil...},
+#      {"districtFieldId"=>4, "name"=>"County", "parentFieldId"=>1...}
+#    ]
+```
 
 ## Development
 
 After checking out the repo, run `rake spec` to run the tests.
 
-A console task has also been provided to automatically load the NGP Van environment. Run `bin/console` for an interactive prompt that will allow you to experiment.
+A console task has also been provided to automatically load the NGP VAN environment. Run `bin/console` for an interactive prompt that will allow you to experiment.
 
 ```ruby
 % bin/console
