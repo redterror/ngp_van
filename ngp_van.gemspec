@@ -7,6 +7,7 @@ require 'ngp_van/version'
 
 Gem::Specification.new do |spec|
   spec.authors = ['Christopher Styles']
+  spec.cert_chain = ['certs/christopherstyles.pem']
   spec.description = ['An unofficial Ruby wrapper for the NGP VAN API']
   spec.email = ['christopherstyles@gmail.com']
   spec.files = `git ls-files lib spec README.md`.split($INPUT_RECORD_SEPARATOR)
@@ -16,6 +17,9 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.require_paths = %w(lib)
   spec.required_ruby_version = '>= 2.1.0'
+  if $PROGRAM_NAME.end_with?('gem')
+    spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem')
+  end
   spec.summary = ['Ruby wrapper for the NGP VAN API']
   spec.version = NgpVan::VERSION.dup
 
