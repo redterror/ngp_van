@@ -6,6 +6,4 @@ require 'ngp_van'
 require 'faker'
 require 'webmock/rspec'
 
-include WebMock::API
-
 Dir[File.dirname(__FILE__) + '/support/**/*.rb'].each { |f| require f }
