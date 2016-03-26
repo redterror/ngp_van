@@ -5,6 +5,7 @@ require 'spec_helper'
 module NgpVan
   RSpec.describe Configuration do
     before(:each) { NgpVan.configuration.reset! }
+    after(:each) { NgpVan.configuration.reset! }
 
     describe '#api_endpoint' do
       context 'when no api_endpoint is specified' do
