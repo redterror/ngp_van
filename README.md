@@ -16,13 +16,31 @@ Or add this line to your application's Gemfile:
 gem 'ngp_van'
 ```
 
+`ngp_van` is cryptographically signed. To be sure the gem you install hasn’t been tampered with:
+
+Add my public key (if you haven’t already) as a trusted certificate:
+
+    gem cert --add <(curl -Ls https://raw.github.com/christopherstyles/ngp_van/master/certs/christopherstyles.pem)
+
+Install with:
+
+    gem install ngp_van -P MediumSecurity
+
+or if using bundler:
+
+    bundle install --trust-policy MediumSecurity
+
+The `MediumSecurity` trust profile will verify signed gems, but allow the installation of unsigned dependencies.
+
+This is necessary because not all of `ngp_van`s dependencies are signed, so we cannot use `HighSecurity`.
+
 ## Configuration
 
 NGP VAN can be configured using a block:
 
 ```ruby
 NgpVan.configure do |config|
-  config.application_name = 'MyCampaign2016'
+  config.application_name = 'MyCampaignApp'
 
   # See http://developers.everyaction.com/van-api#van-authentication
   config.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
@@ -79,7 +97,7 @@ A console task has also been provided to automatically load the NGP VAN environm
 # => "MyCampaignApplication"
 [3] pry(main)> NgpVan.configuration.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
 # => "de286a1a-f2e7-421a-91b8-f8cc8201558f|1"
-[3] pry(main)> NgpVan.district_fields
+[4] pry(main)> NgpVan.district_fields
 # => [
 #      {"districtFieldId"=>1, "name"=>"State", "parentFieldId"=>nil...,
 #      {"districtFieldId"=>2, "name"=>"County", "parentFieldId"=>1...
@@ -88,7 +106,7 @@ A console task has also been provided to automatically load the NGP VAN environm
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/christopherstyles/ngp_van.
+Bug reports and pull requests are welcome on GitHub at https://github.com/christopherstyles/ngp_van/issues.
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
