@@ -29,7 +29,6 @@ module NgpVan
     def request(method:, path:, params: {}, body: {})
       response = connection.send(method) do |request|
         request.path = URI.encode(path)
-        # request.params = Faraday::Utils.escape(params)
         request.params = params
         request.body = ::JSON.generate(body) unless body.empty?
       end
