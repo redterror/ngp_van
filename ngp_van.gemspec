@@ -27,8 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'faraday_middleware', '~> 0.10.0'
 
   spec.add_development_dependency 'faker', '~> 1.6'
-  spec.add_development_dependency 'guard', '~> 2.13'
-  spec.add_development_dependency 'guard-rspec', '~> 4.6'
   spec.add_development_dependency 'pry', '~> 0.10'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
