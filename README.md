@@ -1,5 +1,7 @@
 # The NGP VAN Ruby Gem
 
+[![Circle CI](https://circleci.com/gh/christopherstyles/ngp_van.svg?style=svg&circle-token=410c1ce6c4fd70b078726dffb0497bda82cbb983)](https://circleci.com/gh/christopherstyles/ngp_van)
+
 An unofficial Ruby wrapper for the [NGP VAN](http://developers.everyaction.com/) RESTful API.
 
 ## Quick start
