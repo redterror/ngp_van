@@ -18,13 +18,11 @@ Or add this line to your application's Gemfile:
 gem 'ngp_van'
 ```
 
-`ngp_van` is cryptographically signed. To be sure the gem you install hasn’t been tampered with:
-
-Add my public key (if you haven’t already) as a trusted certificate:
+`ngp_van` is cryptographically signed. To be sure the gem you install hasn’t been tampered with, add my public key as a trusted certificate:
 
     gem cert --add <(curl -Ls https://raw.github.com/christopherstyles/ngp_van/master/certs/christopherstyles.pem)
 
-Install with:
+Then install with:
 
     gem install ngp_van -P MediumSecurity
 
