@@ -8,7 +8,7 @@ require 'ngp_van/version'
 Gem::Specification.new do |spec|
   spec.authors = ['Christopher Styles']
   spec.cert_chain = ['certs/christopherstyles.pem']
-  spec.description = ['An unofficial Ruby wrapper for the NGP VAN API']
+  spec.description = 'An unofficial Ruby wrapper for the NGP VAN API'
   spec.email = ['christopherstyles@gmail.com']
   spec.files = `git ls-files lib spec README.md`.split($INPUT_RECORD_SEPARATOR)
   spec.homepage = 'https://github.com/christopherstyles/ngp_van'
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   if $PROGRAM_NAME.end_with?('gem')
     spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem')
   end
-  spec.summary = ['Ruby wrapper for the NGP VAN API']
+  spec.summary = 'Ruby wrapper for the NGP VAN API'
   spec.version = NgpVan::VERSION.dup
 
   spec.add_runtime_dependency 'faraday', '~> 0.9.2'
