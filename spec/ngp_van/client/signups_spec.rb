@@ -147,7 +147,7 @@ module NgpVan
         end
 
         it 'returns the created id' do
-          expect(client.create_signup(body: body)).to eq('2452')
+          expect(client.create_signup(body: body)).to eq(2452)
         end
       end
 

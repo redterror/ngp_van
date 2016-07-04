@@ -38,7 +38,7 @@ module NgpVan
         end
 
         it 'returns the created id' do
-          expect(client.create_event(body: body)).to eq('1370')
+          expect(client.create_event(body: body)).to eq(1370)
         end
       end
 
@@ -71,7 +71,7 @@ module NgpVan
         it 'returns the created id' do
           expect(
             client.create_event_shift(id: 234_234, body: body)
-          ).to eq('2162')
+          ).to eq(2162)
         end
       end
 

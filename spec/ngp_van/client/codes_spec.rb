@@ -138,7 +138,7 @@ module NgpVan
         end
 
         it 'returns the created id' do
-          expect(client.create_code(body: body)).to eq('20516')
+          expect(client.create_code(body: body)).to eq(20516)
         end
       end
 

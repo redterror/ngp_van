@@ -107,7 +107,7 @@ module NgpVan
         end
 
         it 'returns the created code id' do
-          expect(client.find_or_create_location(body: body)).to eq('272')
+          expect(client.find_or_create_location(body: body)).to eq(272)
         end
       end
 
@@ -141,7 +141,7 @@ module NgpVan
         end
 
         it 'returns the created id' do
-          expect(client.create_location(body: body)).to eq('272')
+          expect(client.create_location(body: body)).to eq(272)
         end
       end
 
