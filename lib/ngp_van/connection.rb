@@ -10,17 +10,17 @@ module NgpVan
     # rubocop:disable Metrics/MethodLength
     def connection
       options = {
-        url: NgpVan.configuration.api_endpoint,
+        url: config.api_endpoint,
         headers: {
           'Accept' => 'application/json; charset=utf-8',
-          'User-Agent' => NgpVan.configuration.user_agent
+          'User-Agent' => config.user_agent
         }
       }
 
       Faraday::Connection.new(options) do |connection|
         connection.basic_auth(
-          NgpVan.configuration.application_name,
-          NgpVan.configuration.api_key
+          config.application_name,
+          config.api_key
         )
 
         connection.request(:json)

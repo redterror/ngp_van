@@ -20,6 +20,15 @@ require 'ngp_van/client/users'
 
 module NgpVan
   class Client
+
+    def initialize(configuration = nil)
+      @config = configuration
+    end
+
+    def config
+      @config || NgpVan.configuration
+    end
+
     include NgpVan::Connection
     include NgpVan::Request
     include NgpVan::Response
