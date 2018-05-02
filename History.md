@@ -1,3 +1,18 @@
+# 0.1.4
+
+Release date: 2018-05-02
+
+- [CHANGED] Circle CI has been replaced with Travis CI for continuous integration.
+- [CHANGED] Gem dependencies have been moved to the Gemfile.
+- [REMOVED] The deprecated 'codeclimate-test-reporter' gem has been removed.
+- [ADDED] Simplecov has been added for generating code coverage. This can be read by the codeclimate’s updated, unified, test reporter client.
+
+# 0.1.3
+
+Release date: 2018-05-01
+
+- [CHANGED] Version dependencies have been loosened for faraday and faraday_middleware so that newer versions can be installed.
+
 # 0.1.2
 
 Release date: 2016-07-04

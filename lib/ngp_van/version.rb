@@ -11,7 +11,7 @@ module NgpVan
 
   # Current patch level.
   # @return [Integer]
-  PATCH = 2
+  PATCH = 4
 
   # Full release version.
   # @return [String]
