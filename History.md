@@ -1,3 +1,9 @@
+# 0.2.0
+
+Release date: 2018-11-07
+
+- [ADDED] Ability to vary configuration per client object (PR #9 by @anero)
+
 # 0.1.4
 
 Release date: 2018-05-02
