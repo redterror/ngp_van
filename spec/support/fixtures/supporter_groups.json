@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 1122,
+      "name": "North End Volunteers",
+      "description": "Volunteers from the North End that help out frequently"
+    },
+    {
+      "id": 1123,
+      "name": "South End Volunteers",
+      "description": "Volunteers from the South End that help out not so frequently"
+    }
+  ],
+  "nextPageLink": "https://api.securevan.com:443/v4/supporterGroups?$top=2&$skip=2",
+  "count": 5
+}
