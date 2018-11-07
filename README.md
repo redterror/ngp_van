@@ -60,6 +60,17 @@ Options can also be set on the configuration object:
 # => "de286a1a-f2e7-421a-91b8-f8cc8201558f|1"
 ```
 
+In a multi-threaded environment you may want to use multiple configurations simultaneously. 
+In that case, pass an appropriately setup configuration class to the client object.
+
+```ruby
+configuration = NgpVan::Configuration.new
+configuration.api_key = 'de286a1a-f2e7-421a-91b8-f8cc8201558f|1'
+client = NgpVan::Client.new(configuration)
+client.district_fields
+
+```
+
 ## Making requests
 
 API Methods can be called as module methods or as instance methods on the client.
