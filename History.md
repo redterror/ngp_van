@@ -2,19 +2,19 @@
 
 Release date: 2018-11-15
 
-- [ADDED] Store parsed errors from response on `NgpVan::Error` (PR #8 by @anero)
+- [ADDED] Store parsed errors from response on `NgpVan::Error` ([#8](https://github.com/christopherstyles/ngp_van/pull/8) by @anero)
 
 # 0.3.0
 
 Release date: 2018-11-14
 
-- [ADDED] Echoes endpoint (PR #10 by @anero and @woodhull)
+- [ADDED] Echoes endpoint ([#10](https://github.com/christopherstyles/ngp_van/pull/10) by @anero and @woodhull)
 
 # 0.2.0
 
 Release date: 2018-11-07
 
-- [ADDED] Ability to vary configuration per client object (PR #9 by @anero)
+- [ADDED] Ability to vary configuration per client object ([#9](https://github.com/christopherstyles/ngp_van/pull/9) by @anero)
 
 # 0.1.4
 
