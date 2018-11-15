@@ -3,7 +3,7 @@
 module NgpVan
   # Custom error class for rescuing from NgpVan errors.
   class Error < StandardError
-    attr_reader :body, :response, :status
+    attr_reader :body, :response, :status, :errors
 
     # rubocop:disable Metrics/MethodLength, Metrics/AbcSize,
     # rubocop:disable Style/CyclomaticComplexity
@@ -45,15 +45,12 @@ module NgpVan
       @response = response
       @body = ::JSON.parse(response[:body])
       @status = response[:status]
+      @errors = body.delete('errors')
 
       super(build_error)
     end
 
     private
-
-    def errors
-      body.delete('errors')
-    end
 
     def build_error
       return nil if response.nil?
