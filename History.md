@@ -1,3 +1,9 @@
+# 0.3.0
+
+Release date: 2018-11-14
+
+- [ADDED] Echoes endpoint (PR #10 by @anero and @woodhull)
+
 # 0.2.0
 
 Release date: 2018-11-07
