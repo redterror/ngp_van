@@ -1,3 +1,9 @@
+# 0.4.0
+
+Release date: 2018-11-15
+
+- [ADDED] Store parsed errors from response on `NgpVan::Error` (PR #8 by @anero)
+
 # 0.3.0
 
 Release date: 2018-11-14
