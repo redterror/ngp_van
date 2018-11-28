@@ -1,3 +1,9 @@
+# 0.5.0
+
+Release date: 2018-11-28
+
+- [ADDED] [Supporter Groups](https://developers.everyaction.com/van-api#supporter-groups) endpoint ([#11](https://github.com/christopherstyles/ngp_van/pull/11) by @lavaturtle and @anero)
+
 # 0.4.0
 
 Release date: 2018-11-15
