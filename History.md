@@ -1,3 +1,10 @@
+# 0.6.0
+
+Release date: 2019-02-27
+
+- [ADDED] [Reported Demographics](https://developers.ngpvan.com/van-api#reported-demographics) endpoint ([#12](https://github.com/christopherstyles/ngp_van/pull/12) by @lavaturtle)
+- [ADDED] Support for Ruby 2.6.0 and Travis configuration update to test only against stable rubies ([#13](https://github.com/christopherstyles/ngp_van/pull/13)).
+
 # 0.5.0
 
 Release date: 2018-11-28
