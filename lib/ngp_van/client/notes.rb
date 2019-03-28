@@ -12,6 +12,7 @@ module NgpVan
       end
 
       def note_category(id:, params: {})
+        verify_id(id)
         get(path: "notes/categories/#{id}", params: params)
       end
     end

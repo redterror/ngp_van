@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def event_type(id:, params: {})
+        verify_id(id)
         get(path: "events/types/#{id}", params: params)
       end
     end

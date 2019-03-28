@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def survey_question(id:, params: {})
+        verify_id(id)
         get(path: "surveyQuestions/#{id}", params: params)
       end
     end
