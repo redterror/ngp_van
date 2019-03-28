@@ -23,7 +23,6 @@ require 'ngp_van/client/users'
 
 module NgpVan
   class Client
-
     def initialize(configuration = nil)
       @config = configuration
     end
@@ -31,6 +30,18 @@ module NgpVan
     def config
       @config || NgpVan.configuration
     end
+
+    def valid_id?(id)
+      id.to_s =~ /\A[a-z0-9\-]+\z/i ? true : false
+    end
+
+    def verify_id(*ids)
+      ids.each do |id|
+        raise NgpVan::InvalidID unless valid_id?(id)
+      end
+      nil
+    end
+    alias_method :verify_ids, :verify_id
 
     include NgpVan::Connection
     include NgpVan::Request
