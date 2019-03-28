@@ -1,3 +1,7 @@
+# master
+
+- [CHANGED] Renamed `History.md` to `CHANGELOG.md` for easier disovery.
+
 # 0.6.0
 
 Release date: 2019-02-27
