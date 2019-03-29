@@ -1,6 +1,9 @@
-# master
+# 0.7.0
+
+Release date: 2019-03-29
 
 - [CHANGED] Renamed `History.md` to `CHANGELOG.md` for easier disovery.
+- [SECURITY] Ensure passed ids are valid ([#14](https://github.com/christopherstyles/ngp_van/pull/14)). Many thanks to @woodhull for the pointer!
 
 # 0.6.0
 
