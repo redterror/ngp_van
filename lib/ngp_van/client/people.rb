@@ -12,18 +12,22 @@ module NgpVan
       end
 
       def person(id:, params: {})
+        verify_id(id)
         get(path: "people/#{id}", params: params)
       end
 
       def person_by_type(id:, type:, params: {})
+        verify_ids(id, type)
         get(path: "people/#{type}:#{id}", params: params)
       end
 
       def create_canvass_responses_for_person(id:, body: {})
+        verify_id(id)
         post(path: "people/#{id}/canvassResponses", body: body)
       end
 
       def create_canvass_responses_for_person_by_type(id:, type:, body: {})
+        verify_ids(id, type)
         post(path: "people/#{type}:#{id}/canvassResponses", body: body)
       end
     end

@@ -5,11 +5,11 @@ require 'ngp_van/configuration'
 require 'ngp_van/version'
 
 module NgpVan
-  class << self
-    # The NgpVan configuration object.
-    # @return [NgpVan::Configuration]
-    attr_reader :configuration
+  class Invalid < StandardError; end
 
+  class InvalidID < Invalid; end
+
+  class << self
     def client
       @client ||= NgpVan::Client.new
     end

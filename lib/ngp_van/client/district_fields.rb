@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def district_field(id:)
+        verify_id(id)
         get(path: "districtFields/#{id}")
       end
     end

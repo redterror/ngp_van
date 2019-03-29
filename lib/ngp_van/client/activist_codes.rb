@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def activist_code(id:, params: {})
+        verify_id(id)
         get(path: "activistCodes/#{id}", params: params)
       end
     end

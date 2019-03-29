@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def signup(id:, params: {})
+        verify_id(id)
         get(path: "signups/#{id}", params: params)
       end
 
@@ -20,10 +21,12 @@ module NgpVan
       end
 
       def update_signup(id:, body: {})
+        verify_id(id)
         put(path: "signups/#{id}", body: body)
       end
 
       def delete_signup(id:)
+        verify_id(id)
         delete(path: "signups/#{id}")
       end
     end

@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def printed_list(id:, params: {})
+        verify_id(id)
         get(path: "printedLists/#{id}", params: params)
       end
     end

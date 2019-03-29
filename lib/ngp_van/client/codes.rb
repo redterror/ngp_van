@@ -12,6 +12,7 @@ module NgpVan
       end
 
       def code(id:, params: {})
+        verify_id(id)
         get(path: "codes/#{id}", params: params)
       end
 
@@ -20,10 +21,12 @@ module NgpVan
       end
 
       def update_code(id:, body: {})
+        verify_id(id)
         put(path: "codes/#{id}", body: body)
       end
 
       def delete_code(id:)
+        verify_id(id)
         delete(path: "codes/#{id}")
       end
     end

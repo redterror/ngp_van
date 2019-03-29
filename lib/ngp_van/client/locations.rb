@@ -8,6 +8,7 @@ module NgpVan
       end
 
       def location(id:, params: {})
+        verify_id(id)
         get(path: "locations/#{id}", params: params)
       end
 
@@ -20,6 +21,7 @@ module NgpVan
       end
 
       def delete_location(id:)
+        verify_id(id)
         delete(path: "locations/#{id}")
       end
     end
