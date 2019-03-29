@@ -32,7 +32,7 @@ module NgpVan
     end
 
     def valid_id?(id)
-      id.to_s =~ /\A[a-z0-9\-]+\z/i ? true : false
+      id.to_s =~ /\A[a-z0-9\-:]+\z/i ? true : false
     end
 
     def verify_id(*ids)

@@ -39,6 +39,7 @@ module NgpVan
           expect(client.valid_id?(123)).to eq(true)
           expect(client.valid_id?('abc')).to eq(true)
           expect(client.valid_id?('abc-123')).to eq(true)
+          expect(client.valid_id?('onlineReferenceNumber:123')).to eq(true)
         end
       end
 
