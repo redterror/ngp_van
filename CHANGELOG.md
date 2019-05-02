@@ -1,3 +1,10 @@
+# 0.8.0
+
+Release date: 2019-05-02
+
+- [ADDED] Support for deleting [supporter groups](https://developers.everyaction.com/van-api#supporter-groups-delete-supportergroups--supportergroupid) ([#29](https://github.com/christopherstyles/ngp_van/pull/29) by @lavaturtle).
+- [ADDED] Support for [applying](https://developers.everyaction.com/van-api#people-post-people--vanid--codes) and [deleting](https://developers.everyaction.com/van-api#people-delete-people--vanid--codes--codeid) codes from people ([#30](https://github.com/christopherstyles/ngp_van/pull/30) by @lavaturtle).
+
 # 0.7.0
 
 Release date: 2019-03-29
@@ -9,14 +16,14 @@ Release date: 2019-03-29
 
 Release date: 2019-02-27
 
-- [ADDED] [Reported Demographics](https://developers.ngpvan.com/van-api#reported-demographics) endpoint ([#12](https://github.com/christopherstyles/ngp_van/pull/12) by @lavaturtle)
+- [ADDED][reported demographics](https://developers.ngpvan.com/van-api#reported-demographics) endpoint ([#12](https://github.com/christopherstyles/ngp_van/pull/12) by @lavaturtle)
 - [ADDED] Support for Ruby 2.6.0 and Travis configuration update to test only against stable rubies ([#13](https://github.com/christopherstyles/ngp_van/pull/13)).
 
 # 0.5.0
 
 Release date: 2018-11-28
 
-- [ADDED] [Supporter Groups](https://developers.everyaction.com/van-api#supporter-groups) endpoint ([#11](https://github.com/christopherstyles/ngp_van/pull/11) by @lavaturtle and @anero)
+- [ADDED][supporter groups](https://developers.everyaction.com/van-api#supporter-groups) endpoint ([#11](https://github.com/christopherstyles/ngp_van/pull/11) by @lavaturtle and @anero)
 
 # 0.4.0
 
