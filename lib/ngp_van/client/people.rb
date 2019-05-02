@@ -30,6 +30,16 @@ module NgpVan
         verify_ids(id, type)
         post(path: "people/#{type}:#{id}/canvassResponses", body: body)
       end
+
+      def apply_code_to_person(id:, body: {})
+        verify_id(id)
+        post(path: "people/#{id}/codes", body: body)
+      end
+
+      def delete_code_from_person(id:, codeId:)
+        verify_ids(id, codeId)
+        delete(path: "people/#{id}/codes/#{codeId}")
+      end
     end
   end
 end
