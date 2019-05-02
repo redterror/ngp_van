@@ -66,6 +66,19 @@ module NgpVan
         end
       end
 
+      describe '#delete_supporter_group' do
+        let(:url) { build_url(client: client, path: 'supporterGroups/1122') }
+
+        before do
+          stub_request(:delete, url).to_return(status: 204, body: '')
+        end
+
+        it 'performs the request' do
+          client.delete_supporter_group(id: 1122)
+          expect(a_request(:delete, url)).to have_been_made
+        end
+      end
+
       describe '#supporter_groups' do
         let(:params) do
           {

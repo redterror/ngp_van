@@ -16,6 +16,11 @@ module NgpVan
         get(path: 'supporterGroups', params: params)
       end
 
+      def delete_supporter_group(id:, params: {})
+        verify_id(id)
+        delete(path: "supporterGroups/#{id}", params: params)
+      end
+
       def add_person_to_supporter_group(supporter_group_id:, id:)
         verify_ids(id, supporter_group_id)
         put(path: "supporterGroups/#{supporter_group_id}/people/#{id}")
