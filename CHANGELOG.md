@@ -1,3 +1,9 @@
+# 0.9.0
+
+Release date: 2019-10-02
+
+- [ADDED] Stories endpoint ([#31](https://github.com/christopherstyles/ngp_van/pull/31) by @kinsomicrote).
+
 # 0.8.0
 
 Release date: 2019-05-02
