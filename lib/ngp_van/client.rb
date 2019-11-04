@@ -17,6 +17,7 @@ require 'ngp_van/client/people'
 require 'ngp_van/client/phones'
 require 'ngp_van/client/printed_lists'
 require 'ngp_van/client/minivan_exports'
+require 'ngp_van/client/saved_lists'
 require 'ngp_van/client/signups'
 require 'ngp_van/client/stories'
 require 'ngp_van/client/survey_questions'
@@ -62,6 +63,7 @@ module NgpVan
     include NgpVan::Client::Phones
     include NgpVan::Client::PrintedLists
     include NgpVan::Client::MinivanExports
+    include NgpVan::Client::SavedLists
     include NgpVan::Client::Signups
     include NgpVan::Client::Stories
     include NgpVan::Client::SupporterGroups
